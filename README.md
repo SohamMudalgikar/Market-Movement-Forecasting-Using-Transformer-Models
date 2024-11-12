@@ -7,17 +7,15 @@ Stock Price Prediction Using Transformers is a project that leverages Transforme
 
 ## Project Structure
 
-- `data/`: Contains raw and processed stock data.
-- `notebooks/`: Jupyter notebooks for exploratory analysis and development.
-- `src/`: Source code files.
+
+- `python/`: python code for exploratory analysis and development.
   - `data_collection.py`: Collects stock data using yfinance.
   - `feature_engineering.py`: Calculates financial indicators and preprocesses data.
   - `visualize.py`: Visualizes stock data and indicators.
   - `model.py`: Defines the Transformer model architecture.
   - `train.py`: Prepares data sequences and trains the model.
   - `evaluate.py`: Evaluates the model and visualizes results.
-- `models/`: Saved model weights after training.
-- `visualizations/`: Generated plots and figures.
-- `requirements.txt`: List of required Python packages.
+
+
 
 
